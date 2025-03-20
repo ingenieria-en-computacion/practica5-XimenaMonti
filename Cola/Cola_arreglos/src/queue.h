@@ -9,7 +9,7 @@ typedef struct {
     Data datos[TAM];
     int head;
     int tail;
-    int len
+    int len;
 } Queue;
 
 Queue queue_create();
@@ -19,5 +19,6 @@ bool queue_is_empty(Queue*);
 Data queue_front(Queue*);
 void queue_empty(Queue*);
 void queue_delete(Queue*);
+
 
 #endif // __QUEUE_H__

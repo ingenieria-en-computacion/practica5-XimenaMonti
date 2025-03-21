@@ -6,6 +6,7 @@
 typedef struct {
     Node* head;
     Node *tail;
+    int len;
 } Queue;
 
 Queue* queue_create();

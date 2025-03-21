@@ -8,6 +8,7 @@ typedef int Data;
 typedef struct {
     Data data[TAM];
     int top;
+    
 } Stack;
 
 Stack stack_create();

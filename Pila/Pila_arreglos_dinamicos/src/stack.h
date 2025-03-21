@@ -7,6 +7,7 @@ typedef int Data;
 typedef struct {
     Data *data;
     int top;
+    int len;
 } Stack;
 
 Stack stack_create(int);
